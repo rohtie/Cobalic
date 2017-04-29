@@ -3,19 +3,18 @@ This script generates an image from all available images that are in
 the `images` directory. Each image is cropped to a small part and then
 pasted into the composite in the place they were cropped from.
 Which in the end creates a complete image with parts from every image.
+All source images have to be the same size.
 
-It is assumed that all source images are the same size. Therefore we use
-the first image to determine the correct sizing for the composite image.
+The following image formats are supported:
+JPG, PNG, GIF (non-animated), BMP, PCX, TGA (uncompressed), TIF, LBM (and PBM), PBM (and PGM, PPM), XPM
 
-Examples:
+## Examples
 
 ![](http://imgur.com/FyE0UrE.png)
 ![](http://imgur.com/PTkXnk7.png)
 ![](http://imgur.com/MCtAk4V.png)
 
-The following image formats are supported:
-JPG, PNG, GIF (non-animated), BMP, PCX, TGA (uncompressed), TIF, LBM (and PBM), PBM (and PGM, PPM), XPM
-
+## Hotkeys
 
 | Hotkey      | Function                                                             |
 |-------------|----------------------------------------------------------------------|
