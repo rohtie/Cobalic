@@ -11,7 +11,6 @@ Examples:
 
 ![](http://imgur.com/FyE0UrE.png)
 ![](http://imgur.com/PTkXnk7.png)
-![](http://imgur.com/WEFD50Q.png)
 ![](http://imgur.com/MCtAk4V.png)
 
 The following image formats are supported:
@@ -30,3 +29,7 @@ JPG, PNG, GIF (non-animated), BMP, PCX, TGA (uncompressed), TIF, LBM (and PBM), 
 | R           | Randomize all image tiles                                            |
 | S           | Save the current composite image                                     |
 | ESC         | Exit the program                                                     |
+
+
+## Install
+You need to install python. The tool was made for python 3. However it will most likely work without problems in python 2 as well. After installing python, install pygame like this: `pip install pygame` and then run the tool with `python cobalic.py`
